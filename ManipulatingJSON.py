@@ -29,3 +29,7 @@
 
 # Extract the model from the response:
 print(response["model"])
+
+# Extract the total_tokens from the response
+print(response["usage"]["total_tokens"])
+
