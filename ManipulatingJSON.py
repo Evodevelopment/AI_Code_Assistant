@@ -1,4 +1,5 @@
 Learn the basics about JSON, XML, CSV, take your time but be practical as well.
+
 ----
 #One of the key skills required to work with APIs is manipulating the JSON response object to extract the desired information. In this exercise, you'll push your Python dictionary and list manipulation skills to the max to extract information from the API response.
 
