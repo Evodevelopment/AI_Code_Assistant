@@ -1,4 +1,9 @@
 import openai
+import os
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
 
 def setup_openai_client(api_key):
     """
