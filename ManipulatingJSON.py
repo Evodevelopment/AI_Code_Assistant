@@ -1,11 +1,4 @@
-Learn the basics about JSON, XML, CSV, take your time but be practical as well.
 
-----
-#One of the key skills required to work with APIs is manipulating the JSON response object to extract the desired information. In this exercise, you'll push your Python dictionary and list manipulation skills to the max to extract information from the API response.
-
-#You've been provided with a response object from the OpenAI API, where a request containing the prompt, What is the goal of OpenAI? was sent to the Completion endpoint. This response object has been printed for you so you can see and understand its structure.
-
-{
   "id": "cmpl-7CTIdXA6C2rENhDBNHxHkynyYRWZS",
   "object": "text_completion",
   "created": 1683206919,
