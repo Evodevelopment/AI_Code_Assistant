@@ -37,5 +37,4 @@ Specify the license under which your project is released, allowing others to kno
 - Mention any individuals, organizations, or resources that have helped you in your project development.
 
 ---
-
-This template covers various essential aspects of a project README, providing clear and structured information to anyone interested in your work. Feel free to customize each section according to the specifics of your project and personal style.
+This is the original readme file, which will be edited based on the project needs.
