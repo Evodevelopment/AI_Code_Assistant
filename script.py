@@ -34,7 +34,7 @@ def get_response_from_openai(prompt, model="gpt-4-chat", temperature=0.7, max_to
         return response.choices[0].text.strip()
     except Exception as e:
         logging.error(f"Error in getting response from OpenAI: {e}")
-        return None
+        raise
 
 # Example usage
 if __name__ == "__main__":
