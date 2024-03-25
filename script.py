@@ -40,9 +40,12 @@ def get_response_from_openai(prompt, model="gpt-4-chat", temperature=0.7, max_to
 if __name__ == "__main__":
     if setup_openai_client():
         prompt = "Write a short story about a robot learning to love."
-        response = get_response_from_openai(prompt)
-        if response:
-            print(response)
-        else:
-            logging.error("Failed to get a response from OpenAI.")
+        try:
+            response = get_response_from_openai(prompt)
+            if response:
+                print(response)
+            else:
+                logging.error("Received an empty response from OpenAI.")
+        except Exception:
+            logging.error("Failed to get a response from OpenAI after retries.")
             
