@@ -35,6 +35,8 @@ Replace `"Type your query here"` with your specific input to interact with the A
 ## Contributing
 We welcome contributions! If you have ideas or improvements, please submit a pull request or open an issue. For more details on contributing, please refer to [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+- Linked is hypothetical ATM, the purpose is to have detailed contribution guidelines, which helps establish a framework for community involvement.
+
 ## License
 This project is released under the [MIT License](./LICENSE).
 
