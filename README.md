@@ -3,7 +3,9 @@
 # OpenAI API Usage
 
 ## Introduction
-This project is a demonstration of using the OpenAI API to create quick applications. It's inspired by my hands-on experimentation in Python, insights gained from attending various tech meetups, and relevant coursework. The driving force behind this endeavor is my deep enthusiasm for Artificial Intelligence (AI) and an earnest desire to explore its vast potential and applications.
+This project is a demonstration of using the OpenAI API to create quick applications.
+The main task of these applications is to being easy to implement, use, build on.
+It's inspired by my hands-on experimentation in Python, insights gained from attending various tech meetups, and relevant coursework. The driving force behind this endeavor is my deep enthusiasm for Artificial Intelligence (AI) and an earnest desire to explore its vast potential and applications.
 
 ## Motivation
 
