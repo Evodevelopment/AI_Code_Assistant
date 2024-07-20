@@ -33,9 +33,51 @@ python your_script.py --example "Type your query here"
 ```
 Replace `"Type your query here"` with your specific input to interact with the AI.
 
-[python] Here's an improved version of the contributing section that includes your personal learning context and an invitation for collaboration:
+## AI-Powered Code Assistant
 
----
+### Introduction
+This part of the project is an AI-powered code assistant using the OpenAI API. It provides code completions, suggestions, explanations, and debugging assistance to enhance the coding experience.
+
+### Features
+- **Code Completion and Suggestions:** Provide real-time code completions based on the current context.
+- **Explanations and Documentation:** Offer explanations for various coding concepts and provide links to relevant documentation or tutorials.
+- **Debugging Assistance:** Identify common coding errors and suggest fixes, and offer explanations for error messages.
+- **Integration with Code Editors:** Integrate with popular code editors like Visual Studio Code (VS Code) for a seamless experience.
+
+### Backend Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AI_Code_Assistant.git
+   cd AI_Code_Assistant/ai_code_assistant
+   ```
+2. Set up the virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+3. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Add your OpenAI API key to `config.py`.
+
+5. Run the Flask application:
+   ```bash
+   python app.py
+   ```
+
+### VS Code Extension Setup
+1. Navigate to the `vscode-extension` directory:
+   ```bash
+   cd vscode-extension
+   ```
+2. Install dependencies and run the extension:
+   ```bash
+   npm install
+   code .
+   ```
+
+3. Press `F5` to start debugging the extension.
 
 ## Contributing
 
@@ -89,8 +131,11 @@ If you’re new to the project, here are a few ways you can start contributing:
 - **Feature Requests:** Suggest new features or enhancements by opening an issue with your ideas.
 - **Code Contributions:** Pick an open issue and start working on it. Feel free to ask questions if you need any guidance.
 
-### Acknowledgments
+## License
+This project is released under the [MIT License](./LICENSE).
 
-I would like to acknowledge the resources and communities that have supported this project, including Datacamp for their courses on AI and Python development.
+## Acknowledgments
+Special thanks to:
+- **Datacamp:** For helping me explore the possibilities of AI API usage.
 
 ---
