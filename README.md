@@ -136,6 +136,6 @@ This project is released under the [MIT License](./LICENSE).
 
 ## Acknowledgments
 Special thanks to:
-- **Datacamp:** For helping me explore the possibilities of AI API usage.
+- Myself, for sticking with the task.
 
 ---
